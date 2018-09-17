@@ -95,7 +95,7 @@ public class PgNaukriLoginPage {
 		
 		WebElement resumeUpdate = driver.findElement(resume);
 		resumeUpdate.sendKeys(resumePath);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 	}
 	
 	public void clickLogout() throws InterruptedException {
